@@ -35,4 +35,7 @@ void selection_sort(int *array, size_t size);
 /* quick sort */
 void quick_sort(int *array, size_t size);
 
+/* Shell sort - Knuth Sequence */
+void shell_sort(int *array, size_t size);
+
 #endif /* sort.h */
