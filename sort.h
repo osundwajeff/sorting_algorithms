@@ -32,4 +32,7 @@ void insertion_sort_list(listint_t **list);
 /* selection sort */
 void selection_sort(int *array, size_t size);
 
+/* quick sort */
+void quick_sort(int *array, size_t size);
+
 #endif /* sort.h */
