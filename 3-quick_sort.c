@@ -64,7 +64,7 @@ int lomuto_partition(int *array, size_t size, int left, int right)
  * @left: The starting index of the array partition to order.
  * @right: The ending index of the array partition to order.
  *
- * Return: 0
+ * Description: 0
  */
 void lomuto_sort(int *array, size_t size, int left, int right)
 {
@@ -83,7 +83,7 @@ void lomuto_sort(int *array, size_t size, int left, int right)
  * order using the quicksort algorithm.
  * @array: An array of integers.
  * @size: The size of the array.
- * Return: 0
+ * Description: 0
  */
 void quick_sort(int *array, size_t size)
 {
